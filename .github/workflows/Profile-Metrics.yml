@@ -16,9 +16,11 @@ jobs:
         with:
           token: ${{ secrets.METRICS_PAT }}
           template: markdown
-          filename: README.md
+          filename: profile/README.md
           markdown: >-
             https://raw.githubusercontent.com/Studio-23-xyz/.github/main/Template.md
           config_output: markdown
+          plugin_followup: yes
+          plugin_followup_indepth: yes
           plugin_isocalendar: yes
           plugin_languages: yes
