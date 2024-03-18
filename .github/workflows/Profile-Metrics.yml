@@ -20,11 +20,5 @@ jobs:
           markdown: >-
             https://raw.githubusercontent.com/Studio-23-xyz/.github/main/Template.md
           config_output: markdown
-          plugin_followup: yes
-          plugin_followup_indepth: yes
-          plugin_activity: yes
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
-          plugin_topics: yes
           plugin_isocalendar: yes
           plugin_languages: yes
