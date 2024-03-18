@@ -18,4 +18,4 @@ ___
 
 ___
 
-<%- await include(`partials/activity.ejs`) %>
+<%- await include(`partials/activity.ejs`,{activity:true}) %>
