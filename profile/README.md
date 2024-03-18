@@ -1,1 +1,15 @@
-<img alt="" width="400" src="https://github.com/Studio-23-xyz/.github/blob/main/metrics.svg" alt=""></img>
+[Studio-23](http://studio-23.xyz/)   represents the Game team of  [Brainstation-23](https://brainstation-23.com/) 
+
+We joined GitHub on `30 May 2015`.
+We contributed to `37` repositories and made `1193` commits.
+
+
+<img src="https://github.com/Studio-23-xyz/.github/blob/main/.cache/base-pdf.svg">
+___
+
+<img src="https://github.com/Studio-23-xyz/.github/blob/main/.cache/languages-pdf.svg">
+___
+
+<img src="https://github.com/Studio-23-xyz/.github/blob/main/.cache/isocalendar.svg">
+
+
