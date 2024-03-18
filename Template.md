@@ -2,10 +2,6 @@
 
 We joined GitHub on `{{ f.date(REGISTRATION_DATE, {date:true}) }}`.
 We contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories and made `{{ COMMITS }}` commits.
-We published  `{{ PACKAGES }}` Unity UPM Packages.
-
-We added  `{{ LINES_ADDED }}` Lines of Code 
-We removed  `{{ LINES_DELETED }}` Lines of Code 
 
 
 <%- await embed(`base-pdf`, {base:"activity, community, repositories"}) %>
@@ -16,6 +12,4 @@ ___
 
 <%- await embed(`isocalendar`, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %>
 
-___
 
-<%- await include(`partials/activity.ejs`,{activity:true}) %>
