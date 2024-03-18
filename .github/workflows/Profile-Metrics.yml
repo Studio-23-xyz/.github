@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_PAT }}
           template: markdown
-          filename: ./profile/README.md
+          filename: README.md
           markdown: >-
             https://raw.githubusercontent.com/Studio-23-xyz/.github/main/Template.md
           config_output: markdown
