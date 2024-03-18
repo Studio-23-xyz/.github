@@ -7,8 +7,6 @@ We published  `{{ PACKAGES }}` Unity UPM Packages.
 We added  `{{ LINES_ADDED }}` Lines of Code 
 We removed  `{{ LINES_DELETED }}` Lines of Code 
 
-<%- await embed(`followup-pdf`, {followup:yes, followup_indepth:yes}) %>
-___
 
 <%- await embed(`base-pdf`, {base:"activity, community, repositories"}) %>
 ___
