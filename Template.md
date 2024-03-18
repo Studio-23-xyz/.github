@@ -9,15 +9,3 @@ ___
 ___
 
 <%- await include(`partials/activity.ejs`) %>
-
-___
-
-<%- await include(`partials/posts.ejs`) %>
-
-___
-
-<%- await include(`partials/rss.ejs`) %>
-
-___
-
-<%- await include(`partials/topics.ejs`) %>
