@@ -1,8 +1,12 @@
-# 📒 Markdown template example
+<%- await embed(`example-base-pdf`, {base:"activity, community, repositories"}) %>
+___
 
-See [rendering of this file here](https://github.com/lowlighter/metrics/blob/examples/metrics.markdown.full.md) and [original template source here](https://github.com/lowlighter/metrics/blob/master/source/templates/markdown/example.md).
+<%- await embed(`example-languages-pdf`, {languages:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
+___
 
-## 🧩 Plugins with markdown version
+<%- await embed(`example-isocalendar`, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %>
+
+___
 
 <%- await include(`partials/activity.ejs`) %>
 
@@ -17,15 +21,3 @@ ___
 ___
 
 <%- await include(`partials/topics.ejs`) %>
-
-## 🎈 Embedding SVG metrics on-the-fly
-
-<%- await embed(`example-isocalendar`, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %>
-
-___
-
-<%- await embed(`example-languages-pdf`, {languages:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
-
-___
-
-<%- await embed(`example-base-pdf`, {base:"activity, community, repositories"}) %>
